@@ -1,0 +1,112 @@
+body {
+    background-color: #f4e4bc; /* パピルス色 */
+    background-image: radial-gradient(#d2b48c 1px, transparent 0);
+    background-size: 40px 40px;
+    font-family: "Sawarabi Mincho", "Hiragino Mincho Pro", serif;
+    color: #4a3721;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    border: 10px double #d4af37; /* 黄金の二重線 */
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #d4af37;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    color: #8b4513;
+}
+
+.subtitle {
+    font-style: italic;
+    color: #c4a484;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #d4af37;
+    padding: 10px;
+    font-size: 1.1rem;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #ffd700;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 0 4px #b8860b;
+    transition: 0.1s;
+}
+
+button:active {
+    box-shadow: 0 0 #b8860b;
+    transform: translateY(4px);
+}
+
+.advice-box {
+    margin: 20px 0;
+    padding: 15px;
+    background: #fff8dc;
+    border-left: 5px solid #d4af37;
+    font-weight: bold;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.output-area {
+    margin-top: 30px;
+    padding: 30px;
+    background: #5d4037;
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.1) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,0,0,0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+    color: #ffd700;
+    border-radius: 15px;
+    border: 4px inset #8b4513;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.glyphs {
+    font-size: 4rem; /* 文字を大きく */
+    word-break: break-all;
+    text-align: center;
+    line-height: 1; /* 行間を詰めるとブロック感が出る */
+    letter-spacing: 0.2rem;
+    display: inline-block;
+    white-space: pre; /* 改行を有効にする */
+    font-family: serif;
+    transition: all 0.5s ease;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.8rem;
+}
